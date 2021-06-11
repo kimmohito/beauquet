@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    max-width: 1200px;
+    padding: 20px;
+    padding-bottom: 0;
+    margin: auto;
+}
+
+
+.banner-logo{
+    width: 100%;
+}
+
+
+nav{
+    text-align: center;
+    width: 100%;
+    display: block;
+    background: navy;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+nav a:hover{
+    background: orange;
+}
+
+
+.card-white{
+    background: #fff;
+    border: solid 1px #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.error-message{
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    width: 390px;
+    margin: auto;
+}
+
+
+.form-main{
+    text-align: center;
+}
+
+.form-main input{
+    padding: 10px;
+    width: 380px;
+    margin-bottom: 20px;
+    border: none;
+    background: #eee;
+}
+.form-main button{
+    border: none;
+    padding: 10px;
+    width: 400px;
+    color: #fff;
+    cursor: pointer;
+    background: navy;
+}
+.form-main .login-button{
+    background: #4CAF50;;
+}
+.form-main .logout-button{
+    background: #f44336;;
+}
+.form-main .yes-button{
+    display: inline-block;
+    width: 200px;
+    background: #4CAF50;;
+}
+.form-main .no-button{
+    display: inline-block;
+    width: 200px;
+    background: #f44336;;
+}
+.form-main button:hover{
+    background: orange;
+}
+
+.form-message{
+    text-align: center;
+}
+.form-message input{
+    padding: 10px;
+    width: 380px;
+    margin-bottom: 20px;
+    border: none;
+    background: #eee;
+}
+.form-message textarea{
+    padding: 10px;
+    width: 380px;
+    min-width: 380px;
+    max-width: 380px;
+    height: 100px;
+    min-height: 50px;
+    max-height: 150px;
+    margin-bottom: 20px;
+    border: none;
+    background: #eee;
+}
+.form-message button{
+    border: none;
+    padding: 10px;
+    width: 400px;
+    color: #fff;
+    cursor: pointer;
+    background: #4CAF50;
+}
+.form-message button:hover{
+    background: orange;
+}
+
+.table-message{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-message th{
+    background: navy;
+    color: #fff;
+    padding: 10px;
+}
+.table-message tr{
+    background: #eee;
+}
+.table-message tr:hover{
+    background: #ddd;
+}
+.table-message td{
+    padding: 5px;
+}
+.table-message a{
+    display: block;
+    text-decoration: none;
+    color: #111;
+}
+.table-message-unseen{
+    font-weight: bold;
+}
+
+
+.product-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.product-grid{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    text-decoration: none;
+    text-align: center;
+}
+.product-grid:hover{
+    background: #eee;
+}
+.product-grid img{
+    height: 100px;
+}
+.product-grid .name{
+    color: #111;
+    font-weight: bold;
+    font-size: 20px;
+}
+.product-grid .description{
+    color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.product-grid .price{
+    color: navy;
+}
+.product-selected{
+    text-align: center;
+}
+.product-selected span{
+    color: navy;
+}
+.product-selected img{
+    height: 300px;
+}
+.product-selected a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+    background: #35A755;
+}
+
+.table-cart a{
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    min-width: 10px;
+    padding: 5px;
+    margin: 5px;
+    background: #000080;
+    color: #fff;
+}
+.cart-confirm{
+    display: block;
+    margin-top: 20px;
+    text-align: right;
+}
+.cart-confirm a{
+    margin-left: 10px;
+    padding: 10px;
+    background: #000080;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.cart-confirm a:hover{
+    background: #000080;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    display: block;
+    background: navy;
+}
